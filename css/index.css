@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: Comic Sans MS,Helvetica Neue,Microsoft Yahei,-apple-system,sans-serif!important;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+}
+html{
+    font-size: 20px!important;
+    --font-alt: 200 6vw/1 "Comic Sans MS","Helvetica Neue","Microsoft Yahei","Microsoft Yahei",-apple-system,sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: var(--color-link);
+    outline: 0;
+}
+.content-main{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.content {
+    background: radial-gradient(#313131,#0a0a0a);
+}
+.content, main {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+main {
+    overflow: hidden;
+}
+#card {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    color: #93979e;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    transition: width .5s ease,height .5s ease;
+}
+@media screen and (max-width: 1024px)
+{
+    #card .card-inner {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    #card .card-inner {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 540px)
+{
+    #card .card-inner {
+        width: 60%!important;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    #card .card-inner {
+        width: 90%!important;
+    }
+}
+#card .card-inner {
+    padding: 0;
+    border: 0;
+    width: 35%;
+}
+.fade.in {
+    opacity: 1;
+    transform: none;
+}
+.fade {
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(200px);
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    width: 100px;
+    aspect-ratio: auto 100 / 100;
+    height: 100px;
+}
+#card .card-inner header {
+    border-bottom: 1px solid hsla(0,0%,100%,.1);
+    margin-bottom: 40px;
+}
+#card .card-inner header img {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px rgb(0 0 0 / 30%);
+    transition: .4s ease-in-out;
+}
+#card .card-inner header h1 {
+    margin: 15px 15px 0;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1.2em;
+    font-weight: 300;
+}
+#card .card-inner header h2 {
+    color: #ccc;
+    letter-spacing: 3px;
+    font-size: .8rem;
+    font-weight: lighter;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#card .card-inner ul {
+    position: relative;
+    margin: 0;
+    list-style-type: none;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    border-bottom: 1px solid hsla(0,0%,100%,.1);
+    padding-bottom: 40px;
+}
+#card .card-inner ul li {
+    display: inline-block;
+    transition: all .2s;
+    width: 100%;
+    height: 100%;
+    border-left: .1px solid hsla(0,0%,100%,.1);
+    border-right: .1px solid hsla(0,0%,100%,.1);
+} 
+
+#card .card-inner ul li a {
+    color: #b6b6b6;
+    transition: all .2s;
+}
+#card .card-inner ul li a:hover {
+    color: #f6f6f6;
+    text-shadow: 0 0 2px #f6f6f6;
+}
+.icon {
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 auto;
+    fill: currentColor;
+    font-family: iconfont!important;
+    font-size: inherit;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2942330 */
+  src: url('//at.alicdn.com/t/font_2942330_xsxgcj2vkdd.woff2?t=1645254347679') format('woff2'),
+       url('//at.alicdn.com/t/font_2942330_xsxgcj2vkdd.woff?t=1645254347679') format('woff'),
+       url('//at.alicdn.com/t/font_2942330_xsxgcj2vkdd.ttf?t=1645254347679') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-guanyuwo:before {
+  content: "\e62b";
+}
+
+.icon-zhuye:before {
+  content: "\e61d";
+}
+
+.icon-bokeyuan:before {
+  content: "\e604";
+}
+
+.icon-juejin:before {
+  content: "\e603";
+}
+
+.icon-boke:before {
+  content: "\e63e";
+}
+
+.icon-wodeyouxiang:before {
+  content: "\e602";
+}
+
+.icon-github:before {
+  content: "\e741";
+}
+
+.icon-Gitee:before {
+  content: "\e601";
+}
+
+.icon-juejin-logo:before {
+  content: "\e600";
+}
