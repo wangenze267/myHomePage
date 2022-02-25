@@ -177,6 +177,17 @@ h2 {
     color: #f6f6f6;
     text-shadow: 0 0 2px #f6f6f6;
 }
+.beian{
+    font-size: .8rem;
+    position: relative;
+    margin-top: -50px; /* footer高度的负值 */
+    /* height: 150px; */
+    color: #ccc;
+    letter-spacing: 3px;
+    clear:both;
+    font-weight: 300;
+    text-align: center;
+}
 .icon {
     display: block;
     width: 1.5em;
