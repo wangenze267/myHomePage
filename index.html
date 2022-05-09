@@ -4,11 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <meta name="description" content="一个前端学习者，经常抽出空余时间学习前端以及相关知识，虽然懂得不多，但是这是我最喜欢的爱好吧。" />
-  <meta name="keywords" content="Ned前端,博客,前端,Ned,wangez.site" />
-  <meta name="baidu-site-verification" content="code-puTQFmeqH6" />
-  <meta name="google-site-verification" content="llHdp70PilkFom13CVpNTuOal94xh6nXHpzLw4AMrxQ" />
-  <title>Ned | 一个前端学习者</title>
+  <title>我的主页</title>
   <link rel="shortcut icon" href="images/favicon.ico" />
   <link rel="stylesheet" href="iconfont/iconfont.css">
   <link rel="stylesheet" href="css/index.css">
@@ -28,7 +24,6 @@
           <ul>
             <li v-for="item in items" :key="item.des">
               <a :href="item.href">
-                <!-- <span class="icon iconfont">{{item.icon}}</span> -->
                 <i class="icon iconfont" :class="item.icon"></i>
                 <span>{{item.des}}</span>
               </a>
@@ -38,7 +33,7 @@
         </div>
       </div>
       <footer class="beian">
-        <a href="https://beian.miit.gov.cn/">辽ICP备2021002374号-1</a>
+        <a href="https://beian.miit.gov.cn/">备案号：123456789</a>
       </footer> 
     </div>
   </main>
@@ -48,35 +43,25 @@
     el: '#card',
     data: {
       header: {
-        name: 'Ned',
+        name: '名称',
         imgUrl: 'images/avator.jpg',
         signature: 'Input & Think & Output'
       },
       items: [
         {
-          href: 'https://blog.wangez.site',
-          icon: 'icon-bokeyuan',
-          des: 'Blog'
+          href: 'https://www.wangez.site',  //跳转地址
+          icon: 'icon-bokeyuan', // 要使用的图标，请自行引入阿里矢量库
+          des: 'Blog' // 描述文字
         },
         {
-          href: 'https://juejin.cn/user/105972016875911',
-          icon: 'icon-juejin-logo',
-          des: 'Juejin'
+          href: 'https://www.wangez.site',  //跳转地址
+          icon: 'icon-bokeyuan', // 要使用的图标，请自行引入阿里矢量库
+          des: 'Blog' // 描述文字
         },
         {
-          href: 'https://github.com/wangenze267',
-          icon: 'icon-github',
-          des: 'Github'
-        },
-        {
-          href: 'https://gitee.com/wang-enze',
-          icon: 'icon-Gitee',
-          des: 'Gitee'
-        },
-        {
-          href:'https://blog.wangez.site/about',
-          icon:'icon-guanyuwo',
-          des:'AboutMe'
+          href: 'https://www.wangez.site',  //跳转地址
+          icon: 'icon-bokeyuan', // 要使用的图标，请自行引入阿里矢量库
+          des: 'Blog' // 描述文字
         }
       ]
     }
