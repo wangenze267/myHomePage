@@ -14,7 +14,7 @@
 
 预览图片：
 
-![demo](https://raw.githubusercontent.com/wangenze267/myHomePage/main/demo/demo.png?token=GHSAT0AAAAAABTFQHJONYBBRG6FQ6QASPYYYTY7SYQ)
+![demo](https://raw.githubusercontent.com/wangenze267/myHomePage/main/demo/demo.png)
 ## 如何使用✊
 1. 将本仓库down 下来 ✔️
 2. 修改`index.html`中，下方`data`中的配置数据✔️
