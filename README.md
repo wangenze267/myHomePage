@@ -10,7 +10,7 @@
 
 > 如果你觉得还不错，那，求个star⭐~
 ## Demo🪁
-预览地址：[预览地址](https://my-home-page-six.vercel.app/)🔗
+预览地址：[预览地址](https://demo.nedwang.cn/)🔗
 
 预览图片：
 
